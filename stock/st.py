@@ -135,7 +135,7 @@ def show_yahoo():
 
     st.set_page_config(page_title="Naf-YFinance - Stock Data Fetcher", layout="wide", page_icon="📈")
     # st.markdown("<h1 style='text-align:center;'>📊 Yahoo Finance Dashboard</h1>", unsafe_allow_html=True)
-    # st.markdown('<p class="tagline" style="text-align:center;">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance 📈</p>', unsafe_allow_html=True)
+    # st.markdown('<p class="tagline" style="text-align:center;">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance </p>', unsafe_allow_html=True)
 
     # Custom CSS for a modern UI with black background
     st.markdown(
@@ -232,7 +232,7 @@ def show_yahoo():
     # st.markdown("""
     # <h1><img src= "Naf-YFinance Tracker.png" style="width:30px; vertical-align:middle; margin-right:10px;"> Naf-YFinance - Stock Data Fetcher</h1>
     # """, unsafe_allow_html=True)
-    st.markdown('<p class="tagline">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance 📈</p>', unsafe_allow_html=True)
+    st.markdown('<p class="tagline">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance.</p>', unsafe_allow_html=True)
 
     # Sidebar for User Input
     st.sidebar.header("User Input")
@@ -706,7 +706,7 @@ def show_polygon():
     # st.markdown("""
     # <h1><img src= "Naf-YFinance Tracker.png" style="width:30px; vertical-align:middle; margin-right:10px;"> Naf-YFinance - Stock Data Fetcher</h1>
     # """, unsafe_allow_html=True)
-    st.markdown('<p class="tagline">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance 📈</p>', unsafe_allow_html=True)
+    st.markdown('<p class="tagline">Efficient Data Retrieval and Analysis for Investors with Advanced S&P-500 Stock Insights from Yahoo Finance.</p>', unsafe_allow_html=True)
 
     # Sidebar for User Input
     st.sidebar.header("User Input")

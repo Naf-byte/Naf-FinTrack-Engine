@@ -486,8 +486,8 @@ def show_yahoo():
 
                 # Select only the relevant columns, including "Week Range"
                 display_data = weekly_data[
-                    ['Week Number', 'Week Range', 'Highest_in_week', 'Lowest_in_week', 'Opening_week', 'Closing_week',
-                    'Volume', 'Gap % with KPI']]
+                    ['Week Number', 'Week Range', 'Gap % with KPI', 'Highest_in_week', 'Lowest_in_week', 'Opening_week', 'Closing_week',
+                    'Volume']]
 
                 # Set custom style to prevent wrapping and center-align the table
                 st.write("""
@@ -993,8 +993,8 @@ def show_polygon():
 
                 # Select only the relevant columns, including "Week Range"
                 display_data = weekly_data[
-                    ['Week Number', 'Week Range', 'Highest_in_week', 'Lowest_in_week', 'Opening_week', 'Closing_week',
-                    'Volume', 'Gap % with KPI']]
+                    ['Week Number', 'Week Range', 'Gap % with KPI', 'Highest_in_week', 'Lowest_in_week', 'Opening_week', 'Closing_week',
+                    'Volume']]
 
                 # Set custom style to prevent wrapping and center-align the table
                 st.write("""

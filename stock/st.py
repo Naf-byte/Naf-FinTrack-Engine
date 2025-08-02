@@ -125,10 +125,10 @@ def show_home():
 # ---------- Yahoo Finance Dashboard ---
 # -------
 def show_yahoo():
-    st.markdown(
-        '<style>div.block-container{padding-top:0rem; padding-left: 0rem; padding-right: 0rem;}</style>',
-        unsafe_allow_html=True,
-    )
+    # st.markdown(
+    #     '<style>div.block-container{padding-top:0rem; padding-left: 0rem; padding-right: 0rem;}</style>',
+    #     unsafe_allow_html=True,
+    # )
     
     # st.set_page_config(page_title="Naf-YFinance - Stock Data Fetcher", layout="wide", page_icon="📈")
     # st.title("📊 Yahoo Finance Dashboard")
